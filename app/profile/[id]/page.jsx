@@ -23,16 +23,18 @@ const UserProfile = ({ params }) => {
   }, [])
   
   return (
-    <div>
-      <Profile 
-        name={profileUsername}
-        desc={`Welcome to ${profileUsername}'s personalized profile page.
-              Explore ${profileUsername}'s exceptional prompts and be
-              inspired by the power of their imagination.`}
-        data={posts}
+    <Suspense>
+      <div>
+        <Profile 
+          name={profileUsername}
+          desc={`Welcome to ${profileUsername}'s personalized profile page.
+                Explore ${profileUsername}'s exceptional prompts and be
+                inspired by the power of their imagination.`}
+          data={posts}
 
-      />
-    </div>
+        />
+      </div>
+    </Suspense>
   )
 }
 
