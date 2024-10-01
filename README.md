@@ -1,6 +1,6 @@
 # Promptopia, A Personal Project For Learning NextJS
 
-Promptopia is a web application created for the purposes of learning and working in the NextJS environment.
+Promptopia is a web application created for the purposes of learning how to program in the NextJS environment.
 
 [Link to the Referenced Free Course by Javascript Mastery](https://youtu.be/wm5gMKuwSYk?si=812_Fvlb9WbnfXKv)
 
